@@ -5,7 +5,7 @@ body {
 
 }
 
-h1, h2, h3 {
+h1, h2, h3, #mid {
   font-weight: bold;
 }
 
@@ -36,4 +36,18 @@ nav a {
 #top {
   background-image: url("../images/the-flatiron-building.png");
 
+}
+
+#mid h3{
+  background-image: url("../images/the-flatiron-building.png");
+  color: white;
+  font-size: 23px;
+  padding: 5px;
+}
+
+#footer p {
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
+  text-align: left;
 }
